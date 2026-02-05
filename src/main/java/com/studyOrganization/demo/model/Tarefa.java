@@ -18,6 +18,6 @@ public class Tarefa {
     private String materia;
     private String descricao;
     private String diaDaSemana;
-    private LocalTime horario;
+    private Integer tempoMinutos;
     private boolean concluida;
 }

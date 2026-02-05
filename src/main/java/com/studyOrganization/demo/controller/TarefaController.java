@@ -22,5 +22,11 @@ public class TarefaController {
     public Tarefa criar(@RequestBody Tarefa tarefa) {
         return repository.save(tarefa);
     }
+    @PutMapping("/{id}/concluir")
+    public Tarefa concluir(@PathVariable Long id) {
+        Tarefa tarefa = repository.findById(id).orElseThrow();
+        tarefa.setConcluida(!tarefa.isConcluida());
+        return repository.save(tarefa);
+    }
 }
 
