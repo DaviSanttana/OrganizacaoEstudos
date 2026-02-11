@@ -20,4 +20,5 @@ public class Tarefa {
     private String diaDaSemana;
     private Integer tempoMinutos;
     private boolean concluida;
+
 }
