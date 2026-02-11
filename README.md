@@ -1,40 +1,76 @@
-# Organiza-oEstudos
-API REST para organização de cronograma de estudos semanal, desenvolvida com Java e Spring Boot
-# 📚 Organizador de Estudos Semanal
+---
 
-Este projeto é uma API REST desenvolvida para ajudar na organização e gestão de rotinas de estudo semanais. Com ele, é possível cadastrar matérias, horários e descrições, mantendo um controle claro do que precisa ser estudado em cada dia da semana.
+# 📚 Organizador de Estudos
 
-## 🚀 Tecnologias Utilizadas
+Aplicação web desenvolvida com **Java + Spring Boot** para organização e acompanhamento de estudos.
 
-O projeto foi construído utilizando as seguintes tecnologias:
+---
 
-* **Java 17**: Linguagem principal.
-* **Spring Boot 3**: Framework para agilizar o desenvolvimento.
-* **Spring Data JPA**: Para persistência de dados e abstração de consultas.
-* **H2 Database**: Banco de dados em memória para facilitar o ambiente de desenvolvimento.
-* **Lombok**: Para redução de código boilerplate (Getters/Setters).
-* **Maven**: Gerenciador de dependências.
+## 🛠 Tecnologias
 
-## 🛠️ Como Rodar o Projeto
+* Java 17
+* Spring Boot
+* Spring Data JPA
+* H2 Database
+* Maven
+* HTML + CSS + JavaScript
 
-Para executar o projeto localmente, siga os passos abaixo:
+---
 
-1.  Certifique-se de ter o **JDK 17** instalado.
-2.  Clone o repositório:
-    ```bash
-    git clone [https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git](https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git)
-    ```
-3.  Abra o projeto na sua IDE de preferência (IntelliJ, VS Code, etc).
-4.  Aguarde o Maven baixar as dependências.
-5.  Execute a classe principal: `OrganizacaoEstudosApplication.java`.
-6.  A API estará disponível em: `http://localhost:8080`.
+## 📷 Interface
 
-## 📍 Endpoints Principais
+![Organizador de Estudos](docs/organizador.png)
 
-* `GET /tarefas`: Lista todos os estudos cadastrados.
-* `POST /tarefas`: Cadastra uma nova tarefa de estudo.
+---
 
-## 📝 Próximos Passos
-- [ ] Criação de interface Frontend (HTML/JS).
-- [ ] Implementação de sistema de "Check" (concluído).
-- [ ] Filtros por dia da semana.
+## ✨ Funcionalidades
+
+* Cadastro de tarefas de estudo
+* Definição de matéria e conteúdo
+* Controle de tempo em minutos
+* Marcar como concluída / reabrir
+* Dashboard com tempo total dedicado
+* Persistência em banco de dados
+
+---
+
+## 🗄 Banco de Dados
+
+H2 Database (modo arquivo)
+
+Console disponível em:
+
+```
+http://localhost:8080/h2-console
+```
+
+---
+
+## ▶ Como executar
+
+```bash
+git clone https://github.com/DaviSanttana/OrganizacaoEstudos
+cd OrganizacaoEstudos
+mvn spring-boot:run
+```
+
+---
+
+## 🎯 Objetivo
+
+Projeto criado para praticar:
+
+* Arquitetura em camadas
+* Persistência com JPA
+* Integração backend + frontend
+* Organização de projeto Spring Boot
+
+---
+
+## 👨‍💻 Autor
+
+Davi Santtana
+[GitHub](https://github.com/DaviSanttana)
+
+---
+
