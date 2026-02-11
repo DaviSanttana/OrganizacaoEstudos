@@ -19,7 +19,7 @@ Aplicação web desenvolvida com **Java + Spring Boot** para organização e aco
 
 ## 📷 Interface
 
-![Organizador de Estudos](docs/organizador.png)
+![Organizador de Estudos](docs/orgnaizador.PNG)
 
 ---
 
